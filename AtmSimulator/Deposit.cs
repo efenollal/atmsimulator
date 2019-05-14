@@ -6,7 +6,7 @@ namespace AtmSimulator
 {
     class Deposit : AddAmount
     {
-        public int SelectAmount(int balance)
+        public override int SelectAmount(int balance)
         {
             Console.WriteLine("Please indicate the amount: ");
             string total = Console.ReadLine();
